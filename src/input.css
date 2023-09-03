@@ -30,36 +30,6 @@ body {
   @apply -rotate-45;
 }
 
-.bg-hero {
-  background-image: url(dist/img/bg-hero-gs.jpg);
-}
-
-.img-history {
-  mask-image: url(dist/img/blobhistory.svg);
-  mask-repeat: no-repeat;
-  mask-size: 110%;
-  mask-position: center;
-}
-.img-profile {
-  mask-image: url(dist/img/blobprofile.svg);
-  mask-repeat: no-repeat;
-  mask-size: 90%;
-  mask-position: center;
-}
-.img-goals {
-  mask-image: url(dist/img/blobgoals.svg);
-  mask-repeat: no-repeat;
-  mask-size: 97%;
-  mask-position: center;
-}
-
-.drop-primary {
-  text-shadow: 2px 2px 10px #000;
-}
-
-.blog {
-  background-image: url(dist/img/news.jpg);
-}
 
 @keyframes glowing {
   0% {
