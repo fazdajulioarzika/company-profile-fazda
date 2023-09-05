@@ -3,22 +3,22 @@
 }
 
 .img-history {
-  mask-image: url(../img/blobhistory.svg);
-  mask-repeat: no-repeat;
-  mask-size: 110%;
-  mask-position: center;
+  -webkit-mask-image: url(../img/blobhistory.svg);
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 110%;
+  -webkit-mask-position: center;
 }
 .img-profile {
-  mask-image: url(../img/blobprofile.svg);
-  mask-repeat: no-repeat;
-  mask-size: 90%;
-  mask-position: center;
+  -webkit-mask-image: url(../img/blobprofile.svg);
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 90%;
+  -webkit-mask-position: center;
 }
 .img-goals {
-  mask-image: url(../img/blobgoals.svg);
-  mask-repeat: no-repeat;
-  mask-size: 97%;
-  mask-position: center;
+  -webkit-mask-image: url(../img/blobgoals.svg);
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 97%;
+  -webkit-mask-position: center;
 }
 
 .blog {
