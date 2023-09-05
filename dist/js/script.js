@@ -6,7 +6,7 @@ window.onscroll = function () {
 
   if (window.pageYOffset > fixedNav) {
     header.classList.add('navbar-fixed');
-    menuHero.classList.add('flex');
+    toTop.classList.add('flex');
     toTop.classList.remove('hidden');
   } else {
     header.classList.remove('navbar-fixed');
