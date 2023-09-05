@@ -1,0 +1,26 @@
+.bg-hero {
+  background-image: url(../img/bg-hero-gs.jpg);
+}
+
+.img-history {
+  mask-image: url(../img/blobhistory.svg);
+  mask-repeat: no-repeat;
+  mask-size: 110%;
+  mask-position: center;
+}
+.img-profile {
+  mask-image: url(../img/blobprofile.svg);
+  mask-repeat: no-repeat;
+  mask-size: 90%;
+  mask-position: center;
+}
+.img-goals {
+  mask-image: url(../img/blobgoals.svg);
+  mask-repeat: no-repeat;
+  mask-size: 97%;
+  mask-position: center;
+}
+
+.blog {
+  background-image: url(../img/news.jpg);
+}

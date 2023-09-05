@@ -538,8 +538,8 @@ video {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 8px;
-  padding-left: 8px;
+  padding-right: 64px;
+  padding-left: 64px;
 }
 
 @media (min-width: 640px) {
@@ -963,9 +963,9 @@ video {
   padding-bottom: 5rem;
 }
 
-.py-24 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+.py-28 {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
 }
 
 .py-5 {
@@ -1031,6 +1031,11 @@ video {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-4xl {
@@ -1250,49 +1255,8 @@ body {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.bg-hero {
-  background-image: url(img/bg-hero-gs.jpg);
-}
-
-.img-history {
-  -webkit-mask-image: url(img/blobhistory.svg);
-          mask-image: url(img/blobhistory.svg);
-  -webkit-mask-repeat: no-repeat;
-          mask-repeat: no-repeat;
-  -webkit-mask-size: 110%;
-          mask-size: 110%;
-  -webkit-mask-position: center;
-          mask-position: center;
-}
-
-.img-profile {
-  -webkit-mask-image: url(img/blobprofile.svg);
-          mask-image: url(img/blobprofile.svg);
-  -webkit-mask-repeat: no-repeat;
-          mask-repeat: no-repeat;
-  -webkit-mask-size: 90%;
-          mask-size: 90%;
-  -webkit-mask-position: center;
-          mask-position: center;
-}
-
-.img-goals {
-  -webkit-mask-image: url(img/blobgoals.svg);
-          mask-image: url(img/blobgoals.svg);
-  -webkit-mask-repeat: no-repeat;
-          mask-repeat: no-repeat;
-  -webkit-mask-size: 97%;
-          mask-size: 97%;
-  -webkit-mask-position: center;
-          mask-position: center;
-}
-
 .drop-primary {
   text-shadow: 2px 2px 10px #000;
-}
-
-.blog {
-  background-image: url(img/news.jpg);
 }
 
 @keyframes glowing {
@@ -1514,9 +1478,9 @@ body {
     padding-right: 1.5rem;
   }
 
-  .md\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .md\:text-sm {
